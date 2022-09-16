@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script, LET'S GO!</title>
+</head>
+<style> /*style making*/
+     .container { /*container for buttons to center them*/
+         height: 100px; 
+         position: absolute;
+         top: 25%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+    }
+    .button { /*button details*/
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 30px;
+        margin: 6px 4px;
+        border-radius: 5px;
+        font-weight: lighter;
+        font-variant: small-caps;
+    }
+    .header { /*extra for h1*/
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+    .paragraph { /*extra for p*/
+        font-size: 20px;
+        text-align: center;
+    }
+    .button1 {
+        background-color: #e9825c;
+    } /*color for "bitter" button*/
+    .button2 {
+        background-color: #fbbbe4be;
+    } /*color for "sweet" button*/
+</style>
+
+<body>
+    <h1 class="header">Classic Vanilla Cake Recipe:</h1> 
+
+    <p class="paragraph" id="question">Should cake be bitter or sweet?</p>
+
+<div class="container"> 
+    <button id="bitter" class="button button1">bitter</button> 
+    <button id="sweet" class="button button2">sweet</button>
+</div> 
+
+<script src="./beginner.js"></script>
+</body>
+
+</html>
